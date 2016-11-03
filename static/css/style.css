@@ -109,24 +109,21 @@ h2 {
 }
 
 nav.main-nav {
-	padding: 20px 20px 0;
-
-	/*max-width: 600px;*/
-	/*width:100%;*/
+	padding: 20px;
+	width:100%;
 	background: #fff;
-	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
+	position: fixed;
 	z-index: 100;
 }
 
 nav.main-nav a {
 	top: 8px;
 	right: 6px;
-	padding: 8px 12px;
+	padding: 4px 6px;
 	color: #5badf0;
-	font-size: 13px;
+	font-size: 16px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
@@ -135,7 +132,7 @@ nav.main-nav a {
 nav.main-nav a.cta {
 	background: #5badf0;
 	color: #fff;
-	margin-left: 12px;
+	margin-left: 6px;
 }
 
 #wrapper {
@@ -665,9 +662,10 @@ a.symbol:hover {
     color: #BCD4DA;
 }
 
-code { 
-	font-family:Menlo, Monaco, Courier; 
-	background-color:#EEE; font-size:14px; 
-	padding: 4px; 
+code {
+	font-family:Menlo, Monaco, Courier;
+	background-color:#EEE; font-size:14px;
+	padding: 4px;
 	font-weight: 600;
 }
+
